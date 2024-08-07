@@ -1,7 +1,7 @@
 <?php
 // decalarar las variables que
 $host = 'localhost'; // nombre del servidor
-$dbname = 'farpov'; // nombre de la base de datos
+$dbname = 'farpov app'; // nombre de la base de datos
 $username = 'root'; // cual es su usuario para ingresar a su base de datos en Xampp
 $password = 'root'; // cual es su contraseña al ingresar a la base de datos en Xampp
 
