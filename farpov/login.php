@@ -1,7 +1,10 @@
+<?php include('includes/header.php'); ?>
+<?php include('config/db.php'); ?>
 <?php
+
 session_start(); // Inicia una nueva sesión o reanuda la sesión existente para manejar la información del usuario durante la navegación.
 
-include('config/db.php'); // Incluye el archivo de configuración de la base de datos para establecer la conexión con la base de datos.
+ // Incluye el archivo de configuración de la base de datos para establecer la conexión con la base de datos.
 
 $error = ''; // Inicializa una variable para almacenar mensajes de error.
 
@@ -97,3 +100,5 @@ $(document).ready(function() {
 </script>
 </body>
 </html>
+<?php include('includes/footer.php');
+?>
