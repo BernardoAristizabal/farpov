@@ -1,0 +1,9 @@
+BEGIN
+    -- Verificar si precio_adicional es NULL y asignar 0 si es el caso
+    IF NEW.precio_adicional IS NULL THEN
+        SET NEW.precio_adicional = 0;
+    END IF;
+
+    -- Calcular el valor total como la suma de Precio y precio_adicional
+    SET NEW.valor_total = NEW.Precio + NEW.precio_adicional;
+END
