@@ -66,5 +66,6 @@ foreach ($resultado as $fila) {
 }
 
 
+
 echo "</table>";
 ?>

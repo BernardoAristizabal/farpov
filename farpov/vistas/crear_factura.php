@@ -24,16 +24,10 @@ function calcularValorTotal() {
 
 <label for="Fecha_factura">Fecha de Factura:</label>
 <input type="date" id="Fecha_factura" name="Fecha_factura" required><br><br>
-<<<<<<< HEAD
-
-<label for="Fecha_impresion">Fecha de Impresión:</label>
-<input type="date" id="Fecha_impresion" name="Fecha_impresion" required><br><br>
-=======
 <!--  
 <label for="Fecha_impresion">Fecha de Impresión:</label>
 <input type="date" id="Fecha_impresion" name="Fecha_impresion" required><br><br>
 -->
->>>>>>> temp-branch
 
 <!-- Cliente -->
 <label for="Id_Cliente">Cliente:</label>
@@ -108,8 +102,6 @@ try {
 <label for="valor_total">Valor Total:</label>
 <input type="text" id="valor_total" name="valor_total" readonly><br><br>
 
-<<<<<<< HEAD
-=======
 </select><br><br>
 
 
@@ -120,7 +112,6 @@ try {
 
 
 
->>>>>>> temp-branch
 <button type="submit">Crear Factura</button>
 </form>
 </body>

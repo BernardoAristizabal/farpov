@@ -1,17 +1,5 @@
 <?php include('includes/header.php'); ?>
-
 <div class="container">
-
-<h1>BIENVENIDO A FARPOV GYM</h1>
-<STYle>
-     h1 {
-            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        }
-</STYle>
-<!-- C:\xampp\htdocs\farpov\imagenes -->
-
-<img src="imagenes/actividad fisica.jpg" alt="Descripción de la imagen">
-
+<h1>GYM, NUTRICION & MEDICINA DEPORTIVA FARPOV</h1>
 </div>
-<?php include('includes/footer.php');
-?>
+<?php include('includes/footer.php'); ?>
