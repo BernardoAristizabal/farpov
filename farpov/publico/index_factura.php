@@ -28,6 +28,7 @@ echo "<table border='1'>
 <th>Observaciones</th>
 <th>Acciones</th>
 </tr>";
+<<<<<<< HEAD
 foreach ($resultado as $fila) {
 // Usa directamente $fila['Id_fac'] para el enlace de eliminación
 $idFac = htmlspecialchars($fila['Id_factura']); 
@@ -66,5 +67,46 @@ onclick=\"return confirm('¿Estás seguro?')\">Eliminar</a>
 </td>
 </tr>";
 }
+=======
+
+foreach ($resultado as $fila) {
+    $idFac = htmlspecialchars($fila['Id_factura']); 
+    $fecFac = htmlspecialchars($fila['Fecha_factura']);
+    $fecImFac = htmlspecialchars($fila['Fecha_impresion']);
+    $idCli = htmlspecialchars($fila['Id_Cliente']);
+    $nomCli = htmlspecialchars($fila['Nombre_cliente']);
+    $apeCli = htmlspecialchars($fila['Apellido_cliente']);
+    $metPago = htmlspecialchars($fila['Metodo_pago']);
+    $nomMem = htmlspecialchars($fila['Id_membresia']);
+    $subTotal = htmlspecialchars($fila['Precio']);
+    $adic = htmlspecialchars($fila['Id_adicional']);
+    $sub2Total = htmlspecialchars($fila['precio_adicional']);
+    $valorTotal = htmlspecialchars($fila['valor_total']);
+    $observaciones = htmlspecialchars($fila['Descripcion']);
+    
+    echo "<tr>
+    <td>" . $idFac . "</td>
+    <td>" . $fecFac . "</td>
+    <td>" . $fecImFac . "</td>
+    <td>" . $idCli . "</td>
+    <td>" . $nomCli . "</td>
+    <td>" . $apeCli . "</td>
+    <td>" . $metPago . "</td>
+    <td>" . $nomMem . "</td>
+    <td>$ " . $subTotal . "</td>
+    <td>" . $adic . "</td>
+    <td>$ " . $sub2Total . "</td>
+    <td>$ " . $valorTotal . "</td>
+    <td>" . $observaciones . "</td>
+    <td>
+    <a href='../vistas/factura_update.php?Id_factura=" . $idFac . "'>Editar</a> |
+    <a href='../sesiones/factura_eliminar.php?Id_factura=" . $idFac . "' onclick=\"return confirm('¿Estás seguro?')\">Eliminar</a>
+    </td>
+    </tr>";
+}
+
+
+
+>>>>>>> temp-branch
 echo "</table>";
 ?>
