@@ -1,13 +1,9 @@
 <?php
 require '../config/db.php';
-echo '<pre>';
-print_r($_GET);
-echo '</pre>';
 if (!isset($_GET['id']) || empty($_GET['id'])) {
 die('Id del cliente no proporcionado');
 }
 $id = $_GET['id'];
-echo "Id recibido: " . htmlspecialchars($id); // Depuración para ver el ID recibido
 $sql = "SELECT * FROM cliente WHERE Id_Cliente  = ?";
 $stmt = $pdo->prepare($sql);
 $stmt->execute([$id]);

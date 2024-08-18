@@ -46,11 +46,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         /* Estilos CSS para el contenedor del formulario */
         .container {
-            max-width: 400px; /* Ancho máximo del contenedor */
+            width: 50px; /* Ancho máximo del contenedor */
             margin-top: 50px; /* Espacio superior */
             padding: 20px; /* Espaciado interno */
             background: white; /* Color de fondo del contenedor */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra alrededor del contenedor */
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Sombra alrededor del contenedor */
             border-radius: 10px; /* Bordes redondeados del contenedor */
         }
     </style>

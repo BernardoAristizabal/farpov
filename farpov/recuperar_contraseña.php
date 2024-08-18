@@ -43,15 +43,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet"> <!-- Incluye el archivo CSS de Bootstrap. -->
 <style>
 body {
-    background-color: #f8f9fa; /* Color de fondo para la página. */
+    background-color: #f8f9fa; /* Define el color de fondo para toda la página. */
 }
 .container {
-    max-width: 400px; /* Ancho máximo del contenedor. */
-    margin-top: 50px; /* Espacio superior para centrar el contenedor en la página. */
-    padding: 20px; /* Espacio interior del contenedor. */
-    background: white; /* Color de fondo del contenedor. */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra del contenedor para dar un efecto de profundidad. */
-    border-radius: 10px; /* Bordes redondeados para el contenedor. */
+    max-width: 400px; /* Define el ancho máximo del contenedor del formulario. */
+    margin-top: 50px; /* Agrega un margen superior para centrar el contenedor verticalmente. */
+    padding: 20px; /* Define el espaciado interno del contenedor. */
+    background: white; /* Define el color de fondo del contenedor del formulario. */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Agrega una sombra sutil al contenedor para darle profundidad. */
+    border-radius: 10px; /* Redondea las esquinas del contenedor. */
 }
 </style>
 </head>
